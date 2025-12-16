@@ -23,7 +23,7 @@ This is NOT for piracy.
 3. SSD 250GB and above or HDD 250GB and above. And a way to connect it to your PC. NVMe M.2 and SATA SSD's work for external extended storage with an enclosure. For internal extended storage you need an enclosure only on PC.
 4. BelenaEtcher
 5. On PS4 you require the license of the media app (or otherwise) you are receiving. And a real PSN account for retail apps. 
-6. On PS5 you do NOT require a license of the media app you are receiving but do need a license if it is a retail app. And any kind of activated account (meaning PSN or fake activated) of only for media apps. 
+6. On PS5 you do NOT require a license of the media app you are receiving but do need a license if it is a retail app. And any kind of activated account (meaning PSN or fake activated) if only for media apps. 
 
 # PS4 Extended Storage
 On PS4 Extended extended storage is easier to deal with, unlike on ps5 and its m.2 extended storage which requires exact size images 
