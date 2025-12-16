@@ -1,0 +1,30 @@
+so this is the command to image it 
+its better than the one in the cloning guide i wrote it makes it a few hours faster probably 
+
+```sudo dd if=/dev/sde bs=4M status=progress conv=sparse of=sparse_2tb.img```
+
+"sde" is the source drive and will change between systems so it has to be checked 
+"sparse_2tb.img" is the output image
+
+```sudo bmaptool create -o sparse_2tb.img.bmap sparse_2tb.img```
+"sparse_2tb.img.bmap" is the output file 
+"sparse_2tb.img" is the source image that gets scanned for mapping 
+bmap is to save yourself either hours or minutes when writing back 
+for the netflix exploit it saved hours of people writing back the bmap maps out the space that is already 0s and skips writing thus saving time 
+
+compression takes a bit of time if the image will be shared 
+
+this is how it should be done 
+
+bmap file named image.bmap in a folder called .meta 
+(on linux you press some button combo to show hidden folders which the . causes)
+then in the same place with the sparse image you place the .meta folder then you zip them
+compression takes a while then you can also 7z the .zip for a bit more compression 
+But the .zip itself already greatly compresses it 
+
+then you use belena etcher to write the .zip that you extract first from the .7z if its in one 
+the netflix n hack instructions can be used as reference 
+
+the images allow personal backups of legit games between consoles 
+sideloading fpkgs and retail apps on consoles albeit with an already jailbroken ps4 or ps5 required to make the image
+probably other shenanigans

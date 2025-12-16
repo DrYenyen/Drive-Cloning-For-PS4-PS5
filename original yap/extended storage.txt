@@ -1,0 +1,28 @@
+Very sorry for the yap below just wanted to explain everything for future reference 
+
+on ps4 extended storage is easier to deal with 
+unlike on ps5 and its m.2 extended storage which requires exact size images 
+the ps4 drive source can be 256gb and target 1tb and it works and shows the pkg
+unlike ps5 though 
+the source firmware matters meaning it cant be used on lower firmware than it was made on at least on ps4 could not test on ps5 
+
+Lucky us that extended storage of PS4 works over onto PS5 
+Double lucky that like I mentioned it's flexible on the size smaller to larger 
+
+And then the 3rd stroke of luck is that @terex777 showed us how to add PS5 apps to extended storage 
+
+This isn't usually a thing through retail 
+The PS5 stops you from moving PS5 media apps and or games to extended storage 
+
+But if you FTP into ext0 on a PS4 you can drop in the *installed* version of a ps5 app via a folder path that starts with ps5 at the root of ext0 and continues with the folders of an installed app from ps5
+Then when you plug it into PS5 you can't run the app from extended storage but you can move it to internal and then launch it 
+So for the purpose of netflix on PS4 and PS5 we'll now have extended storage images that are flexible removing the need for m.2 on PS5 
+PS4 licence requirement still stands 
+
+To note the external storage method seems to be fiddly after 9.60 
+
+2nd note the PS4 extended storage is usually firmware limited 
+The image that will be uploaded is from 9.00 PS4 
+This is for ps4 users since the vulnerable app itself is 9.00 minimum 
+But since the PS5 extended storage is made on the same firmware if some limitation applies it'll be equivalent to 4.00 or so 
+The PS5 version of the app works on 4.03 and above so it should be close enough
