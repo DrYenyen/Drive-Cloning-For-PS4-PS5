@@ -15,7 +15,7 @@ This is NOT for piracy.
 5. bmap-tools - sudo apt update sudo apt install bmap-tools or your distro's equvalent. 
 6. SSD 250GB and above or HDD 250GB and above. And a way to connect it to your PC. NVMe M.2 and SATA SSD's work for external extended storage with an enclosure. For internal extended storage you need an enclosure only on PC.
 > [!IMPORTANT]
-> 0 out your HDD before doing this because it will give you a full sized image otherwise and cannot compress to a shareable size. With an SSD that has TRIM or has been 0 out or an HDD that has been 0 out the end file size after zip and 7z compression will be 100MB - a few GB depending on what you have. 
+> To make a shareable or easily usable image use an ssd that supports trim and while it is formatted to NTFS optimise it from the properties>tools bar. 
 
 # Requirments to use images
 1. Electricity 
@@ -33,6 +33,19 @@ The source firmware matters meaning it can't be used on lower firmware than it w
 
 On PS4 adding apps to extended storage is easy as the console usually makes extended storage the install location after it is added.
 Or for anything else you want to move or more help https://www.playstation.com/en-gb/support/hardware/ps4-external-hdd-support/
+
+## System-internal-app-extended-storage-workaround
+This is how to install an application that is already installed from the factory upgrading it.
+
+### Vue After Free 
+This was discovered while looking for a way to load PlayStation Vue via extended storage to compliment earthonion's save file exploit loading. 
+1. Install Vue 1.01 and 1.24 or greater.
+2. With FTP take the installed versions from user/app and user/patch.
+3. Connect an external drive and format it as extended storage.
+4. Via ftp to /mnt/ext0/user/app and patch place the folders of the installed Vue app.
+5. Rename the title id of the app folder to a different one CUSA00960 to CUSA00961 was used leave the patch folder as CUSA00960.
+6. Stop using the drive from settings.
+7. Unplug it and plug it in on the target console while it's idling on the home screen.
 
 # PS5 External Extended Storage
 PS5 Extended Storage is a bit limited as it cannot usually have PS5 media apps moved to it. Only PS5 games for storage and PS4 games for use and storage. Thanks to TeRex777 telling us about a nice little FTP trick this limitation is out the window. 
