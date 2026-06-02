@@ -106,6 +106,17 @@ The size will show up as the full drive size and will take a bit of time to comp
 # Writing the image 
 1. On Windows/Linux/MacOS unpack the 7z and select the zip with BelenaEtcher and write to a targed drive. Writing is usually about 15 minutes. Can take longer if there is more actual data. 
 
+# PS5 Internal Extended Storage M.2 Slot PCIe 4 bypass 
+Usually the PS5 has a strict requirment for PCIe 4 and will not allow the console to fully boot with anything lesser, but in the PS5 discord server user Windfox wrote the NetflixNHack image to his PCIe 3.0 SSD which allowed him to format it afterwards and access all the space in a usable manner to install ps4 games and even run Linux from it. (PS5 games untested)
+
+Afterwards user @flaviopenas-ps traced the steps and shrunk down the original image to a reasonable sized one to quickly get this going. This means you can now use PCIE 3.0 drive internally by following the steps below:
+
+1. Download the img file from https://github.com/flaviopenas-ps/ps5_94_netflix_____image (backup links will be made).
+2. On Windows/Linux/MacOS select the img with BelenaEtcher or other similar software and write to it to the targed drive.
+3. While your console is off plug the drive in and boot. Format it when it says it is corrupted to regain the full storage size.
+> [!WARNING]
+>Consider this experimental and test before you commit to long term usage.
+
 # ConsoleMods guide i wrote for users 
 This guide was written last year to https://consolemods.org/wiki/PS4:How_to_clone_your_storage by me before the above testing and is a more general use one. The time and etc is more realistic for a drive full of data vs the above which assumes 100MB-1GB of actual data. 
 It is meant for PS4.
@@ -328,6 +339,7 @@ Credits include people who did work on the Netflix exploit project and people wh
 - [Jester](https://github.com/god-jester) for testing 2TB and devising easiest imaging method, and gathering all images for m.2!
 - [TeRex777](https://x.com/TeRex777_) for PS5 App Extended Storage method. 
 ## Other
+
 - [AlAzif](https://github.com/Al-Azif)
 - [LM](https://github.com/LightningMods)
 - [Zecoxao](https://github.com/zecoxao)
