@@ -111,6 +111,8 @@ Usually the PS5 has a strict requirment for PCIe 4 and will not allow the consol
 
 Afterwards user @flaviopenas-ps traced the steps and trimmed down the original image to a reasonable sized one to quickly get this going. This means you can now use PCIE 3.0 drive internally by following the steps below:
 
+Note - The usual 250 GB limit is also not in effect courtesy Bringus Studios a 128GB ssd was mounted.
+
 1. Download the img file from https://github.com/DrYenyen/Drive-Cloning-For-PS4-PS5/blob/main/gen3_ssd_enabler_4.00.img for 4.00 and up or https://github.com/flaviopenas-ps/ps5_94_netflix_____image for 4.03 and above (backup links will be made).
 2. On Windows/Linux/MacOS select the img with BelenaEtcher or other similar software and write to it to the targed drive.
 3. While your console is off plug the drive in and boot. Format it when it says it is corrupted to regain the full storage size.
