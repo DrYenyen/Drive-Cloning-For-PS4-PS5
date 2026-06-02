@@ -109,7 +109,7 @@ The size will show up as the full drive size and will take a bit of time to comp
 # PS5 Internal Extended Storage M.2 Slot PCIe 4 bypass 
 Usually the PS5 has a strict requirment for PCIe 4 and will not allow the console to fully boot with anything lesser, but in the PS5 discord server user Windfox wrote the NetflixNHack image to his PCIe 3.0 SSD which allowed him to format it afterwards and access all the space in a usable manner to install ps4 games and even run Linux from it. (PS5 games untested)
 
-Afterwards user @flaviopenas-ps traced the steps and shrunk down the original image to a reasonable sized one to quickly get this going. This means you can now use PCIE 3.0 drive internally by following the steps below:
+Afterwards user @flaviopenas-ps traced the steps and trimmed down the original image to a reasonable sized one to quickly get this going. This means you can now use PCIE 3.0 drive internally by following the steps below:
 
 1. Download the img file from https://github.com/flaviopenas-ps/ps5_94_netflix_____image (backup links will be made).
 2. On Windows/Linux/MacOS select the img with BelenaEtcher or other similar software and write to it to the targed drive.
