@@ -111,7 +111,7 @@ Usually the PS5 has a strict requirment for PCIe 4 and will not allow the consol
 
 Afterwards user @flaviopenas-ps traced the steps and trimmed down the original image to a reasonable sized one to quickly get this going. This means you can now use PCIE 3.0 drive internally by following the steps below:
 
-1. Download the img file from https://github.com/flaviopenas-ps/ps5_94_netflix_____image (backup links will be made).
+1. Download the img file from https://github.com/DrYenyen/Drive-Cloning-For-PS4-PS5/blob/main/gen3_ssd_enabler_4.00.img (backup links will be made).
 2. On Windows/Linux/MacOS select the img with BelenaEtcher or other similar software and write to it to the targed drive.
 3. While your console is off plug the drive in and boot. Format it when it says it is corrupted to regain the full storage size.
 > [!WARNING]
@@ -337,9 +337,14 @@ Credits include people who did work on the Netflix exploit project and people wh
 - [Gezine](https://github.com/gezine) for help with exploit/Y2JB for reference and original lapse.js!
 - Rush for creating system backup, 256GB and 2TB M.2 Images, PS4 Extended Storage Images and hours of testing!!
 - [Jester](https://github.com/god-jester) for testing 2TB and devising easiest imaging method, and gathering all images for m.2!
-- [TeRex777](https://x.com/TeRex777_) for PS5 App Extended Storage method. 
+- [TeRex777](https://x.com/TeRex777_) for PS5 App Extended Storage method.
+## Vue 
+- [Dr.Yenyen](https://github.com/DrYenyen) - Extended storage workaround.
+## Pcie 4.0 bypass
+- Windfox - Discovery.
+- [flaviopenas-ps](https://github.com/flaviopenas-ps) - Testing and initial image.
+- Bringus Studios - Lowest possible fw image and size.
 ## Other
-
 - [AlAzif](https://github.com/Al-Azif)
 - [LM](https://github.com/LightningMods)
 - [Zecoxao](https://github.com/zecoxao)
